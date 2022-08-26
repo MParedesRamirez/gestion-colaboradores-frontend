@@ -1,0 +1,71 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+  height: 90%;
+  line-height: 1.8;
+}
+/*product cards*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*section*/
+.section {
+  display: block;
+  margin-top: 40px;
+  padding: 12px 16px;
+   background-color: #ffffff;
+}
+
+/*column*/
+.column {
+  float: left;
+  width: 33%;
+margin-top: 40px;
+  padding: 20px 20px 20px 20px;
+ }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} 
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-color: #4DB6AC;
+  background-image: url('https://images.unsplash.com/photo-1515462277126-2dd0c162007a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODM2OTU2OA&ixlib=rb-1.2.1&q=85');
+  min-height: 100%;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
